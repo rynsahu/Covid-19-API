@@ -13,6 +13,7 @@ require("./routes")(app);
 //PORT
 const PORT = process.env.PORT || 3050;
 
+//Server
 server.listen(PORT, () => {
     console.log(`Server listening on PORT ${PORT}...`);
 });
